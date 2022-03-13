@@ -19,8 +19,16 @@
     ></audio>
     <form>
       <input type="file" accept=".pdf" />
-      <input placeholder="Name" type="text" disabled />
-      <input placeholder="PassWord" type="password" minlength="10" required />
+      <label for="id">My Id</label>
+      <input id="id" placeholder="Name" type="email" />
+      <label for="pwd">My Pwd</label>
+      <input
+        id="pwd"
+        placeholder="PassWord"
+        type="password"
+        minlength="10"
+        required
+      />
       <input type="submit" value="create Account" />
     </form>
   </body>
